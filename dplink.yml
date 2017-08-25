@@ -1,0 +1,12 @@
+project : dp_quadruped_walker
+type    : lib
+depends :
+  - url : git@github.com:takarakasai/dp_gait_generator.git 
+    branch : master
+    options :
+  - url : git@github.com:takarakasai/dproki.git 
+    branch : master
+    options :
+  - url : git@github.com:takarakasai/rpp_ik_solver.git
+    branch : master
+    options : 
